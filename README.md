@@ -11,9 +11,21 @@ This is a simple banking system implemented in Python. The application allows us
 - **Withdraw Money**: Users can withdraw money from their accounts, with checks for sufficient balance.
 - **Transaction Logging**: All transactions (deposits and withdrawals) are logged in a separate file for record-keeping.
 
+## How to Run the Project
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your_username/banking_system.git
+2. Navigate into the project directory:
+   '''bash 
+    cd banking_system
+3. Run the application:
+   python main.py
+Instructions for Installation:
+Ensure you have Python installed on your machine. You can download it from python.org.
+
 Data Files:
-accounts.txt: This file stores account details, including account numbers, names, balances, and hashed passwords.
-transactions.txt: This file logs all transactions made by users, including deposits and withdrawals.
+ accounts.txt: This file stores account details, including account numbers, names, balances, and hashed passwords.
+ transactions.txt: This file logs all transactions made by users, including deposits and withdrawals.
 
 Usage:
 When you run the application, you will be presented with a menu to create an account, log in, or exit.
@@ -27,12 +39,3 @@ This project is open-source and available under the MIT License.
 
 Acknowledgments:
 Thank you for using this banking system project. If you have any questions or feedback, please feel free to reach out.
-
-### Instructions for Using the README
-1. **Replace `your_username`**: Make sure to replace `your_username` in the clone command with your actual GitHub username.
-2. **Save the File**: Save this content in a file named `README.md` in your project directory.
-3. **Commit Changes**: If you haven't already, stage and commit the `README.md` file to your GitHub repository:
-   ```bash
-   git add README.md
-   git commit -m "Add README file"
-   git push origin main
