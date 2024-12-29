@@ -16,16 +16,16 @@ This is a simple banking system implemented in Python. The application allows us
    ```bash
    git clone https://github.com/your_username/banking_system.git
 2. Navigate into the project directory:
-   '''bash 
     cd banking_system
 3. Run the application:
    python main.py
+   
 Instructions for Installation:
 Ensure you have Python installed on your machine. You can download it from python.org.
 
 Data Files:
- accounts.txt: This file stores account details, including account numbers, names, balances, and hashed passwords.
- transactions.txt: This file logs all transactions made by users, including deposits and withdrawals.
+ 1. accounts.txt: This file stores account details, including account numbers, names, balances, and hashed passwords.
+ 2. transactions.txt: This file logs all transactions made by users, including deposits and withdrawals.
 
 Usage:
 When you run the application, you will be presented with a menu to create an account, log in, or exit.
